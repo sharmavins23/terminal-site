@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/terminal-site/static/js/main.d748277f.js",
+    "index.html": "/terminal-site/index.html",
+    "main.d748277f.js.map": "/terminal-site/static/js/main.d748277f.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.d748277f.js"
+  ]
+}
