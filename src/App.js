@@ -1,4 +1,6 @@
 import { ReactTerminal } from "react-terminal";
+import hello from "./commands/text/hello.cmd.js";
+import help from "./commands/meta/help.cmd.js";
 
 function App() {
     const welcomeMessage = (
@@ -23,9 +25,9 @@ function App() {
     );
 
     const commands = {
-        whoami: "You are Vins Sharma",
-        hello: "Hello World",
-    }
+        hello: hello(),
+        help: help(null)
+    };
 
     return (
         <>
