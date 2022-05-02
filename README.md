@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Terminal Site
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a terminal in a website.
 
-## Available Scripts
+# License TL;DR
 
-In the project directory, you can run:
+This project is distributed under the MIT license. This is a paraphrasing of a
+[short summary](https://tldrlegal.com/license/mit-license).
 
-### `npm start`
+This license is a short, permissive software license. Basically, you can do
+whatever you want with this software, as long as you include the original
+copyright and license notice in any copy of this software/source.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## What you CAN do:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-   You may commercially use this project in any way, and profit off it or the
+    code included in any way;
+-   You may modify or make changes to this project in any way;
+-   You may distribute this project, the compiled code, or its source in any
+    way;
+-   You may incorporate this work into something that has a more restrictive
+    license in any way;
+-   And you may use the work for private use.
 
-### `npm test`
+## What you CANNOT do:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-   You may not hold me (the author) liable for anything that happens to this
+    code as well as anything that this code accomplishes. The work is provided
+    as-is.
 
-### `npm run build`
+## What you MUST do:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-   You must include the copyright notice in all copies or substantial uses of
+    the work;
+-   You must include the license notice in all copies or substantial uses of the
+    work.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you're feeling generous, give credit to me somewhere in your projects.
