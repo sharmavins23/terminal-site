@@ -18,6 +18,10 @@ singular string, that needs processed/formatted). Any React-based components
 SHOULD be embeddable within the command line, as well as images and other simple
 constructions.
 
+## How do I update the deployment to GitHub?
+
+You can't. I can, by simply running `npm run predeploy` and `npm run deploy`.
+
 ## To-Do
 
 ### Refactors
