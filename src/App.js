@@ -2,6 +2,7 @@ import { ReactTerminal } from "react-terminal";
 // TODO: Find a way to make imports less cumbersome
 import hello from "./commands/text/hello.cmd.js";
 import help from "./commands/meta/help.cmd.js";
+import popcat from "./commands/img/popcat.cmd.js";
 import shrug from "./commands/text/shrug.cmd.js";
 
 function App() {
@@ -28,7 +29,8 @@ function App() {
 
     const commands = {
         hello: hello(),
-        help: help(null),
+        help: help(),
+        popcat: popcat(),
         shrug: shrug(),
     };
 

@@ -2,6 +2,20 @@ function help(props) {
     // TODO: Add support for command specification
 
     let commandsList = {
+        img: [
+            {
+                popcat: {
+                    description: "Pop pop pop pop pop pop pop pop",
+                }
+            }
+        ],
+        meta: [
+            {
+                help: {
+                    description: "Prints this help message",
+                }
+            }
+        ],
         text: [
             {
                 hello: {
@@ -13,13 +27,6 @@ function help(props) {
                 }
             }
         ],
-        meta: [
-            {
-                help: {
-                    description: "Prints this help message",
-                }
-            }
-        ]
     };
 
     // Create a list of the command segments
@@ -35,29 +42,6 @@ function help(props) {
                 <br />
             </>
         )
-    });
-
-    // TODO: Figure out a way to make this more dynamic
-    // Map commands to a JSX string
-    let textCommands = commandsList.text.map((command) => {
-        let commandName = Object.keys(command)[0];
-        let commandDescription = command[commandName].description;
-        return (
-            <>
-                {"└───"}<b>{commandName}</b> - {commandDescription}
-                <br />
-            </>
-        );
-    });
-    let metaCommands = commandsList.meta.map((command) => {
-        let commandName = Object.keys(command)[0];
-        let commandDescription = command[commandName].description;
-        return (
-            <>
-                {"--> "}<b>{commandName}</b> - {commandDescription}
-                <br />
-            </>
-        );
     });
 
     // Iterate through the JSON, formatting this into blocks
