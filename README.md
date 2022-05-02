@@ -2,6 +2,44 @@
 
 This project is a terminal in a website.
 
+## How do I add a command?
+
+Commands are filed away neatly in `./src/commands/`.
+
+To add a command:
+
+1. Create a new `./src/<FOLDER>/command.cmd.js` file.
+2. Add the necessary information (in alphabetical order) in
+   `./src/meta/help.cmd.js` in the JSON object.
+3. Import the file in `./src/App.js` and add it to the `commandsList` object.
+
+Commands can do anything, and take in props as well (which are passed in as a
+singular string, that needs processed/formatted). Any React-based components
+SHOULD be embeddable within the command line, as well as images and other simple
+constructions.
+
+## To-Do
+
+### Refactors
+
+-   `help.cmd.js`needs to have additional functionality for specifying a
+    command. This can be done by adding arguments into the JSON file and
+    switching to a separate event call.
+-   Imports in `App.js` are extremely cumbersome, and could at least be splitted
+    into a separate file and exported as a group (or possibly, just the command
+    values that need exported could be paged and called.)
+-   Page metadata needs to be set (including Favicon, HTML meta, etc)
+
+### New features
+
+-   Add feature command for `apple.cmd.js`.
+-   Add a text-based fishing game (or possibly, a node-canvas game)
+-   Add a raytracing function
+-   Add a color theme changer/switcher (currently, app is forcibly set to
+    material-dark)
+-   Create some form of dynamic virtual filestructure that can be modified
+-   Add basic mathematics commands
+
 # License TL;DR
 
 This project is distributed under the MIT license. This is a paraphrasing of a
