@@ -4,6 +4,7 @@ import hello from "./commands/text/hello.cmd.js";
 import help from "./commands/meta/help.cmd.js";
 import popcat from "./commands/img/popcat.cmd.js";
 import shrug from "./commands/text/shrug.cmd.js";
+import zalgo from "./commands/text/zalgo.cmd.js";
 
 function App() {
     const welcomeMessage = (
@@ -32,6 +33,7 @@ function App() {
         help: help(),
         popcat: popcat(),
         shrug: shrug(),
+        zalgo: (props) => zalgo(props)
     };
 
     return (

@@ -25,6 +25,10 @@ function help(props) {
                 shrug: {
                     description: "Shrugs",
                 }
+            }, {
+                zalgo: {
+                    description: "Make a horrible decision. It will have consequences."
+                }
             }
         ],
     };
