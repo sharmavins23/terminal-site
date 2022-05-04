@@ -33,6 +33,7 @@ You can't. I can, by simply running `npm run predeploy` and `npm run deploy`.
     into a separate file and exported as a group (or possibly, just the command
     values that need exported could be paged and called.)
 -   Page metadata needs to be set (including Favicon, HTML meta, etc)
+-   Rewrite everything in Typescript because Typescript is better(tm)
 
 ### New features
 
