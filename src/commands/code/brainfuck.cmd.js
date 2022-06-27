@@ -14,8 +14,7 @@ function brainfuck(props) {
     return (
         <>
             <br />
-            {convertStringToBF(baseText())}
-            <br />
+            {convertStringToBFComponents(baseText())}
         </>
     )
 }
@@ -47,7 +46,7 @@ function createTickStrings(num) {
 
 // ===== Conversion functions ==================================================
 
-// Given a character, return the corresponding BF instructions
+// Given a character, return the corresponding BF instructions as a component
 function convertCharToBF(char) {
     let bfString = ""; // Empty string for instructions
 
@@ -62,22 +61,44 @@ function convertCharToBF(char) {
     // Create the instruction by appending the strings
     bfString += upTick + ".<" + downTick;
 
-    // Append a newline for readability between characters
-    bfString += "\n";
+    // Create a JSX component out of this character
 
-    return bfString;
+    return (
+        <>
+            {bfString}
+            <br />
+        </>
+    );
+}
+
+// Given a string, return the components of the BF instructions
+function convertStringToBFComponents(str) {
+    let bfComponents = []; // Empty array for components
+
+    // For each character in the string, convert it to BF instructions
+    for (let i = 0; i < str.length; i++) {
+        bfComponents.push(convertCharToBF(str[i]));
+    }
+
+    return (
+        <>
+            {bfComponents}
+        </>
+    );
 }
 
 // Given a string, return the corresponding BF instructions
 function convertStringToBF(str) {
     let bfString = ""; // Empty string for instructions
+    let bfStrings = []; // Empty array for strings
 
     // For each character in the string, convert it to BF instructions
     for (let i = 0; i < str.length; i++) {
         bfString += convertCharToBF(str[i]);
+        bfStrings.append(convertCharToBF(str[i]));
     }
 
-    return bfString;
+    return bfStrings;
 }
 
 export default brainfuck;
