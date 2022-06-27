@@ -2,6 +2,13 @@ function help(props) {
     // TODO: Add support for command specification
 
     let commandsList = {
+        code: [
+            {
+                brainfuck: {
+                    description: "Convert a string to working Brainfuck code"
+                }
+            }
+        ],
         img: [
             {
                 popcat: {

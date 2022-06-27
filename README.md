@@ -32,6 +32,8 @@ You can't. I can, by simply running `npm run predeploy` and `npm run deploy`.
 
 ### Refactors
 
+-   Imports are currently extremely cumbersome and probably could/should be
+    automated.
 -   `help.cmd.js`needs to have additional functionality for specifying a
     command. This can be done by adding arguments into the JSON file and
     switching to a separate event call.
@@ -45,10 +47,11 @@ You can't. I can, by simply running `npm run predeploy` and `npm run deploy`.
 
 -   Add feature command for `apple.cmd.js`.
 -   Add a text-based fishing game (or possibly, a node-canvas game)
--   Add a raytracing function
+-   Add a raytracer (because, why not?)
 -   Add a color theme changer/switcher (currently, app is forcibly set to
     material-dark)
--   Create some form of dynamic virtual filestructure that can be modified
+-   Create some form of dynamic virtual filestructure that can be modified (`ls`
+    commands and the like)
 -   Add basic mathematics commands
 
 # License TL;DR
