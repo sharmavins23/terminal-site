@@ -18,6 +18,12 @@ singular string, that needs processed/formatted). Any React-based components
 SHOULD be embeddable within the command line, as well as images and other simple
 constructions.
 
+## How do I test it myself?
+
+Once you've installed the correct NPM packages via `npm i`, you can simply run
+`npm start` in order to start the webpacker. This will automatically open the
+application in your browser.
+
 ## How do I update the deployment to GitHub?
 
 You can't. I can, by simply running `npm run predeploy` and `npm run deploy`.
