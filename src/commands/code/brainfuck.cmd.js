@@ -70,7 +70,7 @@ function convertCharToBF(char) {
 
 // Given a string, return the corresponding BF instructions
 function convertStringToBF(str) {
-    bfString = ""; // Empty string for instructions
+    let bfString = ""; // Empty string for instructions
 
     // For each character in the string, convert it to BF instructions
     for (let i = 0; i < str.length; i++) {
