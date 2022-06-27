@@ -62,7 +62,6 @@ function convertCharToBF(char) {
     bfString += upTick + ".<" + downTick;
 
     // Create a JSX component out of this character
-
     return (
         <>
             {bfString}
@@ -85,20 +84,6 @@ function convertStringToBFComponents(str) {
             {bfComponents}
         </>
     );
-}
-
-// Given a string, return the corresponding BF instructions
-function convertStringToBF(str) {
-    let bfString = ""; // Empty string for instructions
-    let bfStrings = []; // Empty array for strings
-
-    // For each character in the string, convert it to BF instructions
-    for (let i = 0; i < str.length; i++) {
-        bfString += convertCharToBF(str[i]);
-        bfStrings.append(convertCharToBF(str[i]));
-    }
-
-    return bfStrings;
 }
 
 export default brainfuck;
