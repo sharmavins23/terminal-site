@@ -1,6 +1,7 @@
 import { ReactTerminal } from "react-terminal";
 // TODO: Find a way to make imports less cumbersome
 import brainfuck from "./commands/code/brainfuck.cmd.js";
+import echo from "./commands/text/echo.cmd.js";
 import hello from "./commands/text/hello.cmd.js";
 import help from "./commands/meta/help.cmd.js";
 import popcat from "./commands/img/popcat.cmd.js";
@@ -31,6 +32,7 @@ function App() {
 
     const commands = {
         brainfuck: (props) => brainfuck(props),
+        echo: (props) => echo(props),
         hello: hello(),
         help: help(),
         popcat: popcat(),

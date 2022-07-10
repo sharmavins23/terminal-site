@@ -25,6 +25,11 @@ function help(props) {
         ],
         text: [
             {
+                echo: {
+                    description: "Echoes a string to the terminal line."
+                }
+            },
+            {
                 hello: {
                     description: "Prints a greeting to the screen",
                 },
